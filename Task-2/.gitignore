@@ -1,0 +1,9 @@
+# Local-only Kubernetes secrets (never commit real credentials)
+kubernetes/secret.yaml
+*.local.yaml
+
+# Python / local environment artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.env
